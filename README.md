@@ -11,12 +11,22 @@
 Create a new branch "survey".
 Please open a pull request to the default branch with your answer to the following questions.
 
-* [ ] I have read the job description and understand the qualifications, the responsibilities and the compensation of this position.
+* [x] I have read the job description and understand the qualifications, the responsibilities and the compensation of this position.
 1. What are you most proud of as a front-end developer?
+    * What I am most proud of as a front-end developer is not just being able to build and create efficient, scalable and performant web apps, but the ability to impact and teach other people how to. 
+
 1. What do you enjoy most working as a front-end developer?
+    * What I enjoy most working as a front-end developer is creating reusable and not tightly coupled web components, that other developers can easily reuse throughout the software. 
+
 1. What is your favorite software development principle(s) and/or design pattern(s)?
+    * One of my favorite design patternn is Abstarction / Separation of Concerns. I like this because it is helpful in breaking the software or system into distinct and possibly non-overlapping features, achieving high cohesion and low coupling.
+
 1. What is the top 1 (or up to 3) accomplishments you achieved in your previous company?
+    * One of my top accomplishments I achieved in my previous company is architecting and building the front-end system of their new product vpay.africa, which currently serves over 10,000 merchants across Nigeria.
+    * Also, I maintained and increased the performance of their existing product dartpay.cash by 14% (50 - 64) based on  google lighthouse report.
+
 1. How do you like TDD?
+    * Yes I like TDD.
 
 ## Coding challenge
 
