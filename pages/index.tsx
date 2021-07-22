@@ -8,16 +8,23 @@ type Props = {
 };
 
 const Main: React.FC<Props> = ({ students }) => {
-  // console.log(students)
-  const onChangeHandler = (event: any) => {
+  const [value, setValue] = useState<string>("")
+
+  const filteredStudent = students.filter(student =>
+      student.first_name.toLowerCase().indexOf(value.toLowerCase()) > -1
+      ||
+      student.last_name.toLowerCase().indexOf(value.toLowerCase()) > -1)
+      
+  const onChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
     // TODO
+    setValue(event.target.value)
   };
 
   return (
     <Box direction="column" pad="medium" height="100%" overflow="auto">
-      <TextInput placeholder="type here" value="" onChange={onChangeHandler} />
+      <TextInput placeholder="type here" value={value} onChange={onChangeHandler} />
       <Box direction="row" wrap={true}>
-        {students.map((s, idx) => (
+        { students && filteredStudent.map((s, idx) => (
           <Box key={idx} margin="10px">
             <UserCard user={s} />
           </Box>
