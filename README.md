@@ -13,10 +13,10 @@ Please open a pull request to the default branch with your answer to the followi
 
 * [x] I have read the job description and understand the qualifications, the responsibilities and the compensation of this position.
 1. What are you most proud of as a front-end developer?
-    * What I am most proud of as a front-end developer is not just being able to build and create efficient, scalable and performant web apps, but the ability to impact and teach other people how to. 
+    * What I am most proud of as a front-end developer is architecting and building the front-end system of a new product vpay.africa, a payment processing system under 3 months which currently serves over 10,000 merchants across Nigeria.
 
 1. What do you enjoy most working as a front-end developer?
-    * What I enjoy most working as a front-end developer is creating reusable and not tightly coupled web components, that other developers can easily reuse throughout the software. 
+    * Frontend Development is an intersection between Art and Logic, the mixture of JavaScript and its Technical complexity, CSS and it’s desperate need for attention, Markup and it’s demand for organisation makes Frontend Engineering very exciting.
 
 1. What is your favorite software development principle(s) and/or design pattern(s)?
     * One of my favorite design patternn is Abstarction / Separation of Concerns. I like this because it is helpful in breaking the software or system into distinct and possibly non-overlapping features, achieving high cohesion and low coupling.
@@ -26,7 +26,8 @@ Please open a pull request to the default branch with your answer to the followi
     * Also, I maintained and increased the performance of their existing product dartpay.cash by 14% (50 - 64) based on  google lighthouse report.
 
 1. How do you like TDD?
-    * Yes I like TDD.
+    * How I like TDD, is not having test cases depend on system state manipulated from previously executed test cases.
+    * Also, having dependencies between test cases.
 
 ## Coding challenge
 
