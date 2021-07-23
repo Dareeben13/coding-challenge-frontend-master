@@ -4,10 +4,11 @@ import UserCard from "../components/user.card";
 import { fetchStudents, Student } from "../services/students";
 
 type Props = {
-  students : Student[],
+  students: Student[],
+  themeState?: string
 };
 
-const Main: React.FC<Props> = ({ students }) => {
+const Main: React.FC<Props> = ({ students, themeState }) => {
   const [value, setValue] = useState<string>("")
 
   const filteredStudent = students.filter(student =>
@@ -26,7 +27,7 @@ const Main: React.FC<Props> = ({ students }) => {
       <Box direction="row" wrap={true}>
         { students && filteredStudent.map((s, idx) => (
           <Box key={idx} margin="10px">
-            <UserCard user={s} />
+            <UserCard user={s} themeState={themeState} />
           </Box>
         ))}
       </Box>

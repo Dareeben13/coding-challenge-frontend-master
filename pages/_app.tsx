@@ -24,7 +24,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             }}
           />
         </Header>
-        <Component {...pageProps} />
+        <Component {...pageProps} themeState={themeState} />
       </Box>
     </Grommet>
   );
