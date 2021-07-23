@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.card-wrapper{
+  display: flex;
+  align-items: center;
+  column-gap: 4em;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.item-row{
+  display: grid;
+  grid-template-columns: .6fr 1fr;
+}
+
+
+@media (max-width:760px){
+
+  .item-row-wrap{
+    padding-top: 1.5em;
+  }
+
+  .item-row{
+    grid-template-columns: 1fr;
+  }
+}
